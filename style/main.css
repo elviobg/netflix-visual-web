@@ -101,3 +101,10 @@ header nav a:hover
 {
     width: 70%;
 }
+
+.box-video
+{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
