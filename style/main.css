@@ -48,14 +48,14 @@ header nav a:hover
     color: whitesmoke
 }
 
-/* Principal Componet displayed elements */
+/* Principal Video Componet elements */
 .featured-video 
 {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../resources/img/chihiro.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), 
+                url('../resources/img/chihiro.jpg');
     height: 600px;
     background-size: cover;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,5 +69,30 @@ header nav a:hover
 
 .featured-video .title
 {
+    margin-top: 15%;
     font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.featured-video .button
+{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 20px;
+    font-size: 12px;
+    cursor:pointer;
+    transition: .5s ease all;
+}
+
+.featured-video .button:hover
+{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.featured-video .button .fas
+{
+    margin-right: 5px;
 }
