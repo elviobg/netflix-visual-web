@@ -54,7 +54,8 @@ header nav a:hover
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), 
                 url('../resources/img/chihiro.jpg');
-    height: 600px;
+    width:100%;
+    height:600px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -107,4 +108,9 @@ header nav a:hover
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carousel-videos
+{
+    margin-top: 10px;
 }
