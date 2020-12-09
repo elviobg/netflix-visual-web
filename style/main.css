@@ -96,3 +96,8 @@ header nav a:hover
 {
     margin-right: 5px;
 }
+
+.featured-video .container
+{
+    width: 70%;
+}
